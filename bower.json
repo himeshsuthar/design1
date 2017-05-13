@@ -1,0 +1,32 @@
+{
+  "name": "designing1",
+  "authors": [
+    "himeshsuthar <himesh5983@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#1.6.2",
+    "angular-material": "master",
+    "angular-sanitize": "^1.6.2",
+    "angular-ui-router": "^0.4.2",
+    "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
+    "components-font-awesome": "^4.7.0",
+    "hover": "Hover#^2.1.0",
+    "magic": "^1.1.0",
+    "materialize": "^0.98.0",
+    "font-raoit": "^1.0.0",
+    "color-raoit": "^1.0.1",
+    "spacing-raoit": "^1.0.1"
+  }
+}

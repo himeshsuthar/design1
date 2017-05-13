@@ -1,0 +1,77 @@
+<html>
+	<head>
+	<title> designing 1 12-may-2017
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/materialize/dist/js/materialize.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="assets/scripts/scroll-reveal.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	
+	<link rel="stylesheet" href="bower_components/angular-material/angular-material.css"> 
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"> 
+	<link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css"> <link rel="stylesheet" type="text/css" href="bower_components/color-raoit/css/colors.css" />
+	<link rel="stylesheet" type="text/css" href="bower_components/spacing-raoit/css/spacing-raoit.css" />
+	<link rel="stylesheet" type="text/css" href="bower_components/font-raoit/css/fonts.css" />
+	<link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.min.css"> 
+	<link rel="stylesheet" href="bower_components/hover/css/hover-min.css"> 
+	<link rel="stylesheet" href="bower_components/magic/magic.css">
+	<link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+
+	<link rel="stylesheet" href="assets/css/w3.css"> 
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="app/app.module.js"></script>
+	<script src="app/app.config.js"></script>
+	
+	<script src="controllers/home.controller.js"></script>
+	
+
+	</head>
+	<body ng-app="design1">
+	<div class="navbar-fixed">
+		<nav class="bg-semantic-blue">
+			<div class="nav-wrapper">
+				<a href="#" data-activates="slide-out" class="button-collapse left-align hidden-sm"><i class="fa fa-bars"></i></a>
+				<a href="#!" class="brand-logo margin-left-10"><img src="assets/images/logo.png" class="img-circle  hidden-xs" height="80px">  Eckerds Pharmacy</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a ui-sref="home">Home</a></li>
+					<li><a ui-sref="contactus">Contact Us</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<ul id="slide-out" class="side-nav">
+		<li><a><i class="fa fa-home"></i>Home</a></li><hr>
+
+
+	</ul>
+
+		</div>		
+		<div ui-view></div>
+		
+	<div class="row bg-Bisque padding-25 bottom-0" style="bottom: 0 !important;">
+		<div class="col-xs-12 col-sm-5 col-sm-offset-1">
+			<h3 class="text-accent-3">QUICK LINKS</h3>
+
+		</div>
+		<div class="col-xs-12 col-sm-5 col-sm-offset-1">
+			<h3>USEFUL LINKS</h3>
+
+		</div>
+
+
+	</div>
+	</body>
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.nav-wrapper',{duration : 1500,reset:false});
+
+    $(document).ready(function () {
+        $(".button-collapse").sideNav();
+        }
+	)
+
+</script>
+</html>
